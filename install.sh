@@ -30,7 +30,7 @@ echo "=============================="
 echo "= Basic Packages             ="
 echo "=============================="
 echo -e "${COLOR_NONE}"
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install -y unzip vim git-core curl wget build-essential python-software-properties htop
 
 # PPA && Repositories
